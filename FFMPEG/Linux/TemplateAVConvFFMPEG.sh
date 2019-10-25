@@ -36,6 +36,9 @@
 # * bitrate 640kbit para o stream 0 - $B640K0
 # * bitrate 640kbit para o stream 1 - $B640K1
 
+# Aumenta buffer para evitar erro "Conversion failed! by Too many packets buffered for output stream..."
+MAXBUFFER="-max_muxing_queue_size 9999"
+
 # Vídeo H264
 H264="-c:v libx264"
 # Vídeo H265
