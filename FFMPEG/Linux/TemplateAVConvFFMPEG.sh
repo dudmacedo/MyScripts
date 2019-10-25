@@ -72,6 +72,8 @@ B192KA="-b:a 192k"
 B256KA="-b:a 256k"
 # Bitrate 384kbps para todos os streams de áudio
 B384KA="-b:a 384k"
+# Bitrate 448kbps para todos os streams de áudio
+B384KA="-b:a 448k"
 # Bitrate 640kbps para todos os streams de áudio
 B640KA="-b:a 640k"
 
@@ -83,6 +85,8 @@ B192K0="-b:a:0 192k"
 B256K0="-b:a:0 256k"
 # Bitrate 384kbps para o stream de áudio 0
 B384K0="-b:a:0 384k"
+# Bitrate 448kbps para o stream de áudio 0
+B384K0="-b:a:0 448k"
 # Bitrate 640kbps para o stream de áudio 0
 B640K0="-b:a:0 640k"
 
@@ -94,6 +98,8 @@ B192K1="-b:a:1 192k"
 B256K1="-b:a:1 256k"
 # Bitrate 384kbps para o stream de áudio 1
 B384K1="-b:a:1 384k"
+# Bitrate 448kbps para o stream de áudio 1
+B384K0="-b:a:1 448k"
 # Bitrate 640kbps para o stream de áudio 1
 B640K1="-b:a:1 640k"
 
